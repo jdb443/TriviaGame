@@ -20,6 +20,10 @@ var triviaQuestions = [{
 	question: "Who is the first character to die on Game of Thrones TV show?",
 	answerList: ["Eddard Stark", "Waymar Royce", "Robert Baratheon", "Will"],
     answer: 1
-  
+},{
+	// Question 5
+	question: "Who was pushed out a window?",
+	answerList: ["Brandon Stark", "Balon Greyjoy", "Tommen Baratheon", "Lysa Arryn"],
+	answer: 0
 
 }];
