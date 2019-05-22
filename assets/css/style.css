@@ -1,1 +1,18 @@
 /* Jonathan Behar Homework 5 Trivia Game */
+
+@font-face {
+    font-family: 'hodorregular';
+    src: url('fonts/hodor_font/hodor-webfont.woff2') format('woff2'),
+         url('fonts/hodor_font/hodor-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'game_of_thronesregular';
+    src: url('fonts/game_of_thrones_font/gameofthrones-webfont.woff2') format('woff2'),
+         url('fonts/game_of_thrones_font/gameofthrones-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
