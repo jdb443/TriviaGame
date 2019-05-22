@@ -75,6 +75,30 @@ var triviaQuestions = [{
 	question: "At the End of Game of Thrones what is Sansa doing?",
 	answerList: ["Morning over Joffery", "Visiting the wall", "Being declared Queen in the North", "Sitting in the small council with Bran"],
 	answer: 2
-
+},{
+	// Question 16
+	question: "Who does Brandon Stark chase for hitting a bullseye?",
+	answerList: ["Sansa Stark", "Arya Stark", "Hodor", "Theon Greyjoy"],
+	answer: 1	
+},{
+	// Question 17
+	question: "Who kills the Night King?",
+	answerList: ["Sansa Stark", "Aegon Targaryen", "Arya Stark", "Daenerys Targaryen"],
+	answer: 2
+},{
+	// Question 18
+	question: "During the Battle of the Bastards what House rides in to save the Stark's?",
+	answerList: ["House Greyjoy", "House Frey", "House Targaryen", "House Arryn"],
+	answer: 3	
+},{
+	// Question 19
+	question: "What does Walder Frey do before he dies?",
+	answerList: ["Eat his sons", "Beg for his life", "Scream burn them all", "Shit himself"],
+	answer: 0
+},{
+	// Question 20
+	question: "How does Lyanna Mormont die?",
+	answerList: ["Jorah Mormont stabs her", "She gets poisoned", "She gets crushed by a giant before killing it", "Trial by combat"],
+	answer: 2
 
 }];
