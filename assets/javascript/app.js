@@ -25,5 +25,31 @@ var triviaQuestions = [{
 	question: "Who was pushed out a window?",
 	answerList: ["Brandon Stark", "Balon Greyjoy", "Tommen Baratheon", "Lysa Arryn"],
 	answer: 0
+},{
+	// Question 6
+	question: "Catelyn Stark resented which family member?",
+	answerList: ["Robb Stark", "Brandon Stark", "Jon Snow", "Arya Stark"],
+	answer: 2
+},{
+	// Question 7
+	question: "Why did Robert Baratheon go to Winterfell?",
+	answerList: ["A battle was raging in Kings landing", "He thought it would be cool to freeze in the North", "He wanted to go on vacation", "The hand died and wanted a replacement"],
+    answer: 3
+},{
+	// Question 8
+	question: "Which is not a Game of Thrones book?",
+	answerList: ["A Storm Of Swords", "A Feast for Crows", "Clash of Clans", "A Dance With Dragons"],
+	answer: 2
+},{
+	// Question 9
+	question: "Who who was not an extra in Game of Thrones?",
+	answerList: ["Will Champion", "Ed Sheeran", "Steve Buscemi", "Aaron Rodgers"],
+	answer: 2
+},{
+	// Question 10
+	question: "What is not a name of a sword?",
+	answerList: ["Needle", "Stormbreaker", "Oathkeeper", "Ice"],
+    answer: 1
+
 
 }];
