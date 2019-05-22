@@ -100,5 +100,29 @@ var triviaQuestions = [{
 	question: "How does Lyanna Mormont die?",
 	answerList: ["Jorah Mormont stabs her", "She gets poisoned", "She gets crushed by a giant before killing it", "Trial by combat"],
 	answer: 2
-
+},{
+	// Question 21
+	question: "Jaqen H'qhar offers how many kills to square his debt?",
+	answerList: ["1", "2", "3", "5"],
+	answer: 2
+},{
+	// Question 22
+	question: "Who is the second person Jaqen H'qhar kills to square his debt?",
+	answerList: ["Ser Amory Lorch", "Tywin Lannister", "Cersei Lannister", "Joffrey Baratheon"],
+	answer: 0
+},{
+	// Question 23
+	question: "According to thewrap.com how many unofficial kills does Ayra Stark have?",
+	answerList: ["24", "50", "200", "100,000+"],
+	answer: 3
+},{
+	// Question 24
+	question: "How many people was Margaery Tyrell married to?",
+	answerList: ["1", "2", "3", "4"],
+	answer: 2
+},{
+	// Question 25
+	question: "Who did the Valyrian steel dagger actually belong to?",
+	answerList: ["Lord Petyr Baelish", "Theon Greyjoy", "Ned Stark", "Jaqen H'qhar"],
+	answer: 0
 }];
