@@ -135,3 +135,26 @@ var messages = {
 	endTime: "VO ALIKH KI KASHI! Out of time!",
 	finished: "Vezhven! Kirekosi chek anha hash? Great! How well I do?"
 }
+
+$('#startBtn').on('click', function(){
+	$(this).hide();
+	newGame();
+});
+
+$('#startOverBtn').on('click', function(){
+	$(this).hide();
+	newGame();
+});
+
+function newGame(){
+	$('#finalMessage').empty();
+	$('#correctAnswers').empty();
+	$('#incorrectAnswers').empty();
+	$('#unanswered').empty();
+	currentQuestion = 0;
+	correctAnswer = 0;
+	incorrectAnswer = 0;
+	unanswered = 0;
+	newQuestion();
+}
+
