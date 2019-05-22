@@ -10,6 +10,11 @@ var triviaQuestions = [{
 	question: "What Network is Game of Thrones aired on?",
 	answerList: ["Netflix", "Hulu", "Starz", "HBO"],
     answer: 3
-    
+},{
+	// Question 3
+	question: "Which one is not a Westeros House name in Game of Thrones?",
+	answerList: ["Umber", "Blackfyre", "Hightower", "Peverell"],
+    answer: 3
+        
 
 }];
