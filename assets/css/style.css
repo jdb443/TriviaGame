@@ -16,3 +16,141 @@
     font-style: normal;
 }
 
+body {
+	background: url('../images/game-of-thrones-background.jpg');
+	font-family: 'game_of_thronesregular';
+	font-size: 25px;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+.btn-primary, .reset {
+	background-color: #313477;
+	color: white;
+	font-family: 'hodorregular';
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+.btn-primary:hover, .reset:hover {
+	background-color: #202364;
+}
+
+.container {
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+    width: 700px;
+    background-color: #cccccc;
+    padding: 5%;
+}
+
+.padding {
+    padding: 20px;
+}
+
+h2, #message, #finalMessage {
+	font-family: 'hodorregular';
+}
+
+.thisChoice {
+	padding: 10px;
+}
+
+.thisChoice:hover {
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+}
+
+#gif {
+	margin: 30px;
+}
+
+#volumeButton {
+    position: fixed;
+    top:2%;
+    left:2%;
+    font-size: 5vh;
+    z-index: 1000;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'game_of_thronesregular';
+    font-size: 6vw;
+    color: #ffffff;
+    margin-top: 5%;
+    text-align: center;
+  }
+  h1.threeD {
+      font-size: 6vw;
+      font-weight: normal;
+      text-align: center;
+      margin: 0;
+      color: #ffffff;
+      text-shadow:
+          -1px 1px 0 #ddd,
+          -2px 2px 0 #c8c8c8,
+          -3px 3px 0 #ccc,
+          -4px 4px 0 #b8b8b8,
+          -4px 4px 0 #bbb,
+          0px 1px 1px rgba(0,0,0,.4),
+          0px 2px 2px rgba(0,0,0,.3),
+          -1px 3px 3px rgba(0,0,0,.2),
+          -1px 5px 5px rgba(0,0,0,.1),
+          -2px 8px 8px rgba(0,0,0,.1),
+          -2px 13px 13px rgba(0,0,0,.1)
+          ;
+  }
+
+.threeD {
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	color: black;
+	text-shadow:
+		-1px 1px 0 #ddd,
+		-2px 2px 0 #c8c8c8,
+		-3px 3px 0 #ccc,
+		-4px 4px 0 #b8b8b8,
+		-4px 4px 0 #bbb,
+		0px 1px 1px rgba(0,0,0,.4),
+		0px 2px 2px rgba(0,0,0,.3),
+		-1px 3px 3px rgba(0,0,0,.2),
+		-1px 5px 5px rgba(0,0,0,.1),
+		-2px 8px 8px rgba(0,0,0,.1),
+		-2px 13px 13px rgba(0,0,0,.1)
+		;
+}
+
+.threeDV {
+	text-align: center;
+	margin: 0;
+	color: black;
+	text-shadow:
+		-1px 1px 0 #ddd,
+		-2px 2px 0 #c8c8c8,
+		-3px 3px 0 #ccc,
+		-4px 4px 0 #b8b8b8,
+		-4px 4px 0 #bbb,
+		0px 1px 1px rgba(0,0,0,.4),
+		0px 2px 2px rgba(0,0,0,.3),
+		-1px 3px 3px rgba(0,0,0,.2),
+		-1px 5px 5px rgba(0,0,0,.1),
+		-2px 8px 8px rgba(0,0,0,.1),
+		-2px 13px 13px rgba(0,0,0,.1)
+		;
+}
+
+@media screen and (max-width:640px) {
+	.container {
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
