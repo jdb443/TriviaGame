@@ -15,6 +15,11 @@ var triviaQuestions = [{
 	question: "Which one is not a Westeros House name in Game of Thrones?",
 	answerList: ["Umber", "Blackfyre", "Hightower", "Peverell"],
     answer: 3
-        
+},{
+	// Question 4
+	question: "Who is the first character to die on Game of Thrones TV show?",
+	answerList: ["Eddard Stark", "Waymar Royce", "Robert Baratheon", "Will"],
+    answer: 1
+  
 
 }];
