@@ -47,9 +47,34 @@ var triviaQuestions = [{
 	answer: 2
 },{
 	// Question 10
-	question: "What is not a name of a sword?",
+	question: "What is not a name of a sword in Game of Thrones?",
 	answerList: ["Needle", "Stormbreaker", "Oathkeeper", "Ice"],
     answer: 1
+},{
+	// Question 11
+	question: "Before leaving the Wall what does Tyrion Lannister do?",
+	answerList: ["Push a crow off the top",  "Spot a White Walker", "Piss off the wall", "Have sex"],
+	answer: 2
+},{
+	// Question 12
+	question: "What two actors plays the Night King?",
+	answerList: ["Tom Cavanagh and Richard Brake", "Richard Brake and Vladimir Furdik", "Isaac Hempstead-Wright and Vladimir Furdik", "Hafþór Júlíus Björnsson and Nikolaj Coster-Waldau"],
+	answer: 1
+},{
+	// Question 13
+	question: "What is the words of House Karstark?",
+	answerList: ["Winter is Coming", "Hear Me Roar", "The Sun of Winter", "Protect the Wolf"],
+	answer: 1
+},{
+	// Question 14
+	question: "'Who is made Leader at Kings Landing at the End of Game of Thrones?",
+	answerList: ["Brandon Stark", "Hodor", "Yara Greyjoy", "Aegon Targaryen"],
+	answer: 0
+},{
+	// Question 15
+	question: "At the End of Game of Thrones what is Sansa doing?",
+	answerList: ["Morning over Joffery", "Visiting the wall", "Being declared Queen in the North", "Sitting in the small council with Bran"],
+	answer: 2
 
 
 }];
