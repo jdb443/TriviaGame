@@ -5,6 +5,11 @@ var triviaQuestions = [{
 	question: "In what year was George R. R. Martin born?",
 	answerList: ["1929", "1946", "1948", "1955"],
     answer: 2
-
+},{
+	// Question 2
+	question: "What Network is Game of Thrones aired on?",
+	answerList: ["Netflix", "Hulu", "Starz", "HBO"],
+    answer: 3
+    
 
 }];
