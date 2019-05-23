@@ -29,10 +29,11 @@ header {
 .btn-primary, .reset {
 	background-color: #313477;
 	color: white;
-	font-family: 'hodorregular';
+	font-family: 'game_of_thronesregular';
 	font-size: 30px;
 	padding: 20px;
 	margin-top: 100px;
+	line-height: 40px;
 }
 
 .btn-primary:hover, .reset:hover {
@@ -53,7 +54,7 @@ header {
 }
 
 h2, #message, #finalMessage {
-	font-family: 'hodorregular';
+	font-family: 'game_of_thronesregular';
 }
 
 .thisChoice {
@@ -79,6 +80,11 @@ h2, #message, #finalMessage {
     z-index: 1000;
     background-color: gold;
     border-radius: 5px;
+}
+
+#currentQuestion {
+	font-family: 'hodorregular';
+	line-height: 40px;
 }
 
 h1 {
@@ -146,6 +152,15 @@ h1 {
 		-2px 8px 8px rgba(0,0,0,.1),
 		-2px 13px 13px rgba(0,0,0,.1)
 		;
+}
+
+.question {
+	font-family: 'hodorregular';
+	line-height: 40px;
+}
+
+.answerList {
+	font-size: 20px;
 }
 
 /* @media screen and (max-width:640px) {

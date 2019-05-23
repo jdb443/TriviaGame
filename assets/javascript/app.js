@@ -140,15 +140,15 @@ $(document).ready(function () {
     var userSelect;
     var messages = {
         correct: "ME ACHRAE ATHNAJAHAROON! SMELLS LIKE VICTORY!",
-        incorrect: "YER OJILA! ",
+        incorrect: "YER OJILA! You're Wrong!",
         endTime: "VO ALIKH KI KASHI! Out of time!",
         finished: "Vezhven! Kirekosi chek anha hash? Great! How well I do?"
     }
 
     var allAudio = {
         volume: true,
-        hit: new Audio("assets/audio/R2D2_sounds.mp3"),
-        music: new Audio("assets/audio/SW_Imperial_March.mp3")
+        hit: new Audio("assets/audio/Nights_Watch_Horn.mp3"),
+        music: new Audio("assets/audio/GoT_Theme.mp3")
     };
     allAudio.music.loop = true;
 
@@ -181,14 +181,6 @@ $(document).ready(function () {
         $('#correctAnswers').empty();
         $('#incorrectAnswers').empty();
         $('#unanswered').empty();
-        $('#currentQuestion').empty();
-        $('#currentQuestion').hide();
-        $('.thisChoice').empty(); // Clears question page
-        $('.thisChoice').hide();
-        $('.question').empty();
-        $('.question').hide();
-        $('.answerList').empty();
-        $('.answerList').hide();
         currentQuestion = 0;
         correctAnswer = 0;
         incorrectAnswer = 0;
