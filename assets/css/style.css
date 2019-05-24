@@ -48,17 +48,24 @@ header {
     background-color: #cccccc;
     padding: 5%;
 }
-
+/* 
 .padding {
     padding: 20px;
-}
+} */
 
-#message, #finalMessage {
+#message {
 	font-family: 'game_of_thronesregular';
-	line-height: 20px;
+	line-height: 40px;
 	padding-bottom: 20px;
 	/* padding: 20px; */
 }
+
+#finalMessage {
+	font-family: 'game_of_thronesregular';
+	line-height: 40px;
+	padding-bottom: 20px;
+}
+
 h2 {
 	font-family: 'game_of_thronesregular';
 	line-height: 40px;
@@ -111,7 +118,7 @@ h1 {
       font-size: 6vw;
       font-weight: normal;
       text-align: center;
-      margin: 0;
+      margin: 5% 0 0 0;
       color: #ffffff;
       text-shadow:
           -1px 1px 0 #ddd,
@@ -175,6 +182,10 @@ h1 {
 .answerList {
 	font-size: 20px;
 }
+
+/* #incorrectAnswers {
+	padding-top: 20px;
+} */
 
 /* @media screen and (max-width:640px) {
 	.container {
