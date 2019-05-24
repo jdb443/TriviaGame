@@ -7,7 +7,7 @@ Homework 5 Game of Thrones Trivia Game
 ## Functionality Breakdown
 See if you can if you have what it takes to be on The Iron Throne!
 
-###Screenshot! <br />
+### Screenshot! <br />
 <img src="assets/images/StartReadMe.png">
 
 ### Valor Morghulis!
