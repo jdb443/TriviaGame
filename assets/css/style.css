@@ -53,8 +53,17 @@ header {
     padding: 20px;
 }
 
-h2, #message, #finalMessage {
+#message, #finalMessage {
 	font-family: 'game_of_thronesregular';
+	line-height: 20px;
+	padding-bottom: 20px;
+	/* padding: 20px; */
+}
+h2 {
+	font-family: 'game_of_thronesregular';
+	line-height: 40px;
+	padding-bottom: 20px;
+	/* padding: 20px; */
 }
 
 .thisChoice {
@@ -69,7 +78,7 @@ h2, #message, #finalMessage {
 }
 
 #gif {
-	margin: 30px;
+	margin: 30px 30px 0px 30px;
 }
 
 #volumeButton {
@@ -84,6 +93,10 @@ h2, #message, #finalMessage {
 
 #currentQuestion {
 	font-family: 'hodorregular';
+	line-height: 40px;
+}
+
+#correctedAnswer {
 	line-height: 40px;
 }
 
@@ -156,7 +169,7 @@ h1 {
 
 .question {
 	font-family: 'hodorregular';
-	line-height: 40px;
+	line-height: 200%;
 }
 
 .answerList {

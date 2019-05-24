@@ -167,12 +167,30 @@ $(document).ready(function () {
 
     $('#startBtn').on('click', function () {
         $(this).hide();
+        // $('#currentQuestion').empty();
+        // $('.thisChoice').empty();
+        // $('.question').empty();
+        // $('.answerList').empty();
+        // $('#currentQuestion').hide();
+        // $('.thisChoice').hide();
+        // $('.question').hide();
+        // $('.answerList').hide();
         newGame();
+        allAudio.music.play();
     });
 
     $('#startOverBtn').on('click', function () {
         $(this).hide();
+        // $('#currentQuestion').empty();
+        // $('.thisChoice').empty();
+        // $('.question').empty();
+        // $('.answerList').empty();
+        // $('#currentQuestion').hide();
+        // $('.thisChoice').hide();
+        // $('.question').hide();
+        // $('.answerList').hide();
         newGame();
+        allAudio.music.play();
     });
 
     function newGame() {
@@ -196,7 +214,11 @@ $(document).ready(function () {
         $('.answerList').show();
         $('#correctedAnswer').empty();
         $('#gif').empty();
+        $('#gif').hide();
+        $('#gif').show();
         answered = true;
+        allAudio.hit.load();
+        allAudio.hit.play();
 
         // Sets up new questions and answerList
         $('#currentQuestion').html('Question #' + (currentQuestion + 1) + '/' + triviaQuestions.length);
@@ -278,7 +300,9 @@ $(document).ready(function () {
         $('#timeLeft').empty();
         $('#message').empty();
         $('#correctedAnswer').empty();
+        // $('#gif').show();
         $('#gif').empty();
+        $('#gif').hide();
 
         $('#finalMessage').html(messages.finished);
         $('#correctAnswers').html("Correct Answers: " + correctAnswer);
@@ -287,6 +311,8 @@ $(document).ready(function () {
         $('#startOverBtn').addClass('reset');
         $('#startOverBtn').show();
         $('#startOverBtn').html('Start Over?');
+        allAudio.hit.load();
+        allAudio.hit.play();
     }
 
 })
