@@ -300,9 +300,9 @@ $(document).ready(function () {
         $('#timeLeft').empty();
         $('#message').empty();
         $('#correctedAnswer').empty();
-        // $('#gif').show();
-        $('#gif').empty();
-        $('#gif').hide();
+        $('#gif').show();
+        // $('#gif').empty();
+        // $('#gif').hide();
 
         $('#finalMessage').html(messages.finished);
         $('#correctAnswers').html("Correct Answers: " + correctAnswer);
